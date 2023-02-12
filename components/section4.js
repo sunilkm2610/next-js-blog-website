@@ -13,7 +13,6 @@ export default function section4() {
 
   if (isLoading) return <Spinner></Spinner>;
   if (isError) return <Error></Error>;
-
   return (
     <section className="md:px-20 py-16 bg-gray-800">
       <div className="grid lg:grid-cols-2">
