@@ -37,7 +37,7 @@ export default function section1() {
         </h1>
 
         <Swiper slidesPerView={1}>
-          {data.map((value, index) => (
+          {data?.map((value, index) => (
             <SwiperSlide key={index}>
               <Slide data={value}></Slide>
             </SwiperSlide>

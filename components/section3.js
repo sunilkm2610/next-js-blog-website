@@ -31,7 +31,7 @@ export default function section3() {
             spaceBetween: 30,
           },
         }}>
-        {data.map((value, index) => (
+        {data?.map((value, index) => (
           <SwiperSlide key={index}>
             <Post data={value}></Post>
           </SwiperSlide>

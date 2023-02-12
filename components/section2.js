@@ -20,7 +20,7 @@ export default function section2() {
 
       {/* grid columns */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-14">
-        {data.map((value, index) => (
+        {data?.map((value, index) => (
           <Post data={value} key={index}></Post>
         ))}
       </div>

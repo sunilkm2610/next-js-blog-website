@@ -22,17 +22,17 @@ export default function section4() {
           </h1>
           <div className="flex flex-col gap-6">
             {/* posts */}
-            {data[1] ? (
+            {data.length > 1 && data[1] ? (
               <Post data={data[1]}></Post>
             ) : (
               <></>
             )}
-            {data[2] ? (
+            {data.length > 1 && data[2] ? (
               <Post data={data[2]}></Post>
             ) : (
               <></>
             )}
-            {data[3] ? (
+            {data.length > 1 && data[3] ? (
               <Post data={data[3]}></Post>
             ) : (
               <></>
@@ -44,17 +44,17 @@ export default function section4() {
             Travel
           </h1>
           <div className="flex flex-col gap-6">
-            {data[4] ? (
+            {data.length > 1 && data[4] ? (
               <Post data={data[4]}></Post>
             ) : (
               <></>
             )}
-            {data[5] ? (
+            {data.length > 1 && data[5] ? (
               <Post data={data[5]}></Post>
             ) : (
               <></>
             )}
-            {data[2] ? (
+            {data.length > 1 && data[2] ? (
               <Post data={data[2]}></Post>
             ) : (
               <></>
