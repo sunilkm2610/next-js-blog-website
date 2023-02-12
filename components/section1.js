@@ -66,6 +66,7 @@ function Slide({ data }) {
         <Link href={`/posts/${id}`}>
           <a>
             <Image
+              alt="img"
               src={img || "/"}
               width={600}
               height={600}

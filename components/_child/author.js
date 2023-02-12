@@ -11,6 +11,7 @@ export default function author({
   return (
     <div className="author flex py-5">
       <Image
+        alt="img"
         src={img || ""}
         width={60}
         height={60}

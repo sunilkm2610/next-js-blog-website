@@ -83,6 +83,7 @@ function Post({ data }) {
         <Link href={`/posts/${id}`}>
           <a>
             <Image
+              alt="img"
               src={img || ""}
               width={300}
               height={250}
